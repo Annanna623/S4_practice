@@ -1,0 +1,21 @@
+/* ahjlriheuhi */
+h1 {
+  font-family: "Helvetica", "Arial", sans-serif; /* 指定字型 */
+  color: green;  
+}
+
+h2 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: blue;
+}
+h1, h2 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 { 
+  color: green;
+ }
+
+ h2 {
+  color: blue;
+ }

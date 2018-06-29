@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>認識盒子模型</title>
+  <style>
+    h1, p, div {
+      background-color: #eee;
+    }
+    em, a {
+      background-color: pink;
+      display: none; 
+    }
+  </style>
+</head>
+<body>
+  <h1>這是h1元素，佔滿一整個橫列，所以是block排列方式</h1>
+  <div>這是div元素，也佔滿一整個橫列。</div>
+  <p>這是段落 (p) 元素，也是block。但在段落裡的<em>inline元素</em>，則順應block元素的排列，不會影響到網頁整體的排版。</p>
+  <a href="#">網頁連結 (a 元素) 也是inline。</a>
+  <p>在inline後面的block元素還是會另起一行。</p>
+  <p>我想要對「<span style="color: red">被 span 標籤包圍的文字</span>」追加樣式</p>
+</body>
+</html>
